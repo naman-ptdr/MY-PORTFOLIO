@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/21bd19b255.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <div class="header1">
+                    <p>Softeware Devloper</p>
+                    <h1>Hi,I'm <span>Naman</span><br>Patidar From India</h1>
+                </div>
+                <div class="img-box">
+                    <img src="image/naman.jpg" class="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------About------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/img.jpg" width="150px" class="img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore quidem dolorem
+                        perferendis maxime officia aperiam quod itaque deserunt praesentium nam alias dolore
+                        necessitatibus provident, placeat dolores modi nobis nisi ducimus dolorum fugit doloribus ullam
+                        eaque. Doloremque ipsa dolorum nemo laboriosam possimus voluptas similique nostrum distinctio
+                        magni
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('eduaction')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Design Web / App interfaces</li>
+                            <li><span>UI?UX</span><br>Design Web / App interfaces</li>
+                            <li><span>UI?UX</span><br>Design Web / App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-currnt</span><br>UI/UX Design Traning</li>
+                            <li><span>2024-current</span><br>Work on a project</li>
+                            <li><span>2018-2022</span><br>Photo & video editing</li>
+                    </div>
+                    <div class="tab-contents" id="eduaction">
+                        <ul>
+                            <li><span>2023-2026t</span><br>MCA from NIT Raipur</li>
+                            <li><span>2020-2023</span><br>BCA from A.P.J University Indore</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------Services---------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devloper</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facilis placeat nemo enim consequatur rerum obcaecati! Nulla tempore quae odit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Softeware Devloper</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facilis placeat nemo enim consequatur rerum obcaecati! Nulla tempore quae odit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-web-awesome"></i>
+                    <h2>Competetive programmer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facilis placeat nemo enim consequatur rerum obcaecati! Nulla tempore quae odit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------Portfolio---------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------JS-------------------------------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+</body>
+
+</html>
