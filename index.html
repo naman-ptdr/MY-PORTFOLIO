@@ -1,135 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Naman's-Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/21bd19b255.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/21bd19b255.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="image/logo1.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                    <p>Software Devloper</p>
-                    <h1>Hi,I'm <span>Naman</span><br>Patidar From India</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="image/logo1.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Software Devloper</p>
+          <h1>Hi,I'm <span>Naman</span><br />Patidar From India</h1>
         </div>
+      </div>
     </div>
-
 
     <!-- --------------------About------------------- -->
 
-    
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="image/img.jpg" width="150px" class="img">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore quidem dolorem
-                        perferendis maxime officia aperiam quod itaque deserunt praesentium nam alias dolore
-                        necessitatibus provident, placeat dolores modi nobis nisi ducimus dolorum fugit doloribus ullam
-                        eaque. Doloremque ipsa dolorum nemo laboriosam possimus voluptas similique nostrum distinctio
-                        magni
-                    </p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('eduaction')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI?UX</span><br>Design Web / App interfaces</li>
-                            <li><span>UI?UX</span><br>Design Web / App interfaces</li>
-                            <li><span>UI?UX</span><br>Design Web / App interfaces</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2023-currnt</span><br>UI/UX Design Traning</li>
-                            <li><span>2024-current</span><br>Work on a project</li>
-                            <li><span>2018-2022</span><br>Photo & video editing</li>
-                    </div>
-                    <div class="tab-contents" id="eduaction">
-                        <ul>
-                            <li><span>2023-2026t</span><br>MCA from NIT Raipur</li>
-                            <li><span>2020-2023</span><br>BCA from A.P.J University Indore</li>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/img.jpg" width="150px" class="img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi, I'm <strong>Naman Patidar</strong>, a passionate and
+              self-driven final-year MCA student at <strong>NIT Raipur</strong>.
+              I specialize in <strong>MERN stack development</strong> and enjoy
+              building scalable web applications that solve real-world problems.
+              <br /><br />
+              Some of my key projects include a <strong>Job Portal</strong> with
+              Clerk authentication, and an
+              <strong>AI-based Trip Planner</strong>
+              powered by LLMs, Firebase, and OpenStreetMap APIs. I love
+              integrating AI in web apps to make them smarter and more
+              personalized.
+              <br /><br />
+              I'm currently focused on improving my
+              <strong>DSA skills (C++)</strong>, learning
+              <strong>System Design</strong>, and revising
+              <strong>Core CS subjects</strong> like OS, DBMS, CN, and OOPs. I'm
+              also comfortable with <strong>Core Java</strong> and
+              <strong>Basic Python</strong> for scripting and problem-solving.
+              <br /><br />
+              My goal is to land a role at a top product-based company where I
+              can contribute, learn, and grow as a developer.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages</span><br />C++ , Java(Core),
+                  python(Basic), DSA(C++), SQL
+                </li>
+                <li>
+                  <span>Frontend</span><br />React.js, HTML, CSS, JavaScript,
+                  Tailwind CSS
+                </li>
+                <li>
+                  <span>Backend</span><br />Node.js, Express.js, MongoDB,
+                  Firebase
+                </li>
+                <li>
+                  <span>Other Tools</span><br />Git, GitHub, Postman, Clerk
+                  Auth, JWT, REST APIs
+                </li>
+                <li>
+                  <span>AI Integration</span><br />Gemini/GPT APIs, LLM-based
+                  JSON generation
+                </li>
+                <li>
+                  <span>CS Subjects</span><br />OS, DBMS, CN, OOPs, System
+                  Design
+                </li>
+                <li>
+                  <span>DSA & CP</span><br />
+                  1500+ Contest Rating on LeetCode
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2025 - Present</span><br />Developing AI-based Trip
+                  Planner with LLM + Firebase + Maps
+                </li>
+                <li><span>2024</span><br />Built MERN Stack - Job Portal</li>
+                <li>
+                  <span>2018 - 2022</span><br />Photo & Video Editing
+                  (Freelance/Personal)
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023 - 2026</span><br />MCA from NIT Raipur</li>
+                <li>
+                  <span>2020 - 2023</span><br />BCA from A.P.J Abdul Kalam
+                  University, Indore
+                </li>
+                <li>
+                  <span>2018 - 2020</span><br />Higher Secondary from M.P. Board
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- ----------------------Services---------------------------- -->
 
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Devloper</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facilis placeat nemo enim consequatur rerum obcaecati! Nulla tempore quae odit.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-uncharted"></i>
-                    <h2>Softeware Devloper</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facilis placeat nemo enim consequatur rerum obcaecati! Nulla tempore quae odit.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-web-awesome"></i>
-                    <h2>Competetive programmer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facilis placeat nemo enim consequatur rerum obcaecati! Nulla tempore quae odit.</p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <!-- Web Developer Card -->
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web App Development</h2>
+            <p>
+              I specialize in building full-stack web applications using the
+              MERN stack. From intuitive user interfaces to robust backend APIs,
+              I deliver clean, scalable, and high-performance solutions tailored
+              to real-world needs.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <!-- Software Developer Card -->
+          <div>
+            <i class="fa-brands fa-uncharted"></i>
+            <h2>Problem Solving & System Design</h2>
+            <p>
+              I solve real-world problems using optimized algorithms in
+              <strong>C++</strong>, and build scalable systems
+              grounded in solid
+              <strong>OS, DBMS, CN, OOPs</strong> fundamentals. <br /><br />
+              I’ve solved over <strong>900+ DSA questions</strong> on
+              <strong>LeetCode & GeeksforGeeks</strong> and currently hold a
+              <strong>1500+ rating</strong> on LeetCode. I’m also exploring
+              <strong>System Design</strong> for scalable software architecture.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <!-- Competitive Programmer / AI Integration Card -->
+          <div>
+            <i class="fa-solid fa-brain"></i>
+            <h2>AI Integration in Web Apps</h2>
+            <p>
+              I integrate AI/LLMs like Gemini or GPT into modern web apps to
+              automate tasks, generate content, and enhance user experience
+              using structured JSON workflows, Firebase, and open APIs like
+              OpenStreetMap.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
         </div>
+      </div>
     </div>
 
-<!-- ------------------------Portfolio---------------------------- -->
- <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="" alt="">
-                </div>
+    <!-- ------------------------Portfolio---------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/card_JobPortal.png" alt="" />
+            <div class="layer">
+                <h3>Job Portal Web App</h3>
+                <p>Developed a scalable job portal using the MERN stack with authentication via Clerk, admin dashboard, and dynamic job listings.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
             </div>
+          </div>
+          <div class="work">
+            <img src="image/card_TripPlanner.png" alt="" />
+            <div class="layer">
+                <h3>AI-based Trip Planner </h3>
+                <p>Developed an AI-based travel planner that takes user input and returns structured, image-rich itineraries using Google Gemini API, OpenStreetMap, and Firebase.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/card_programming.png" alt="" />
+            <div class="layer">
+                <h3> Code & DSA Profile (GitHub + LeetCode)</h3>
+                <p>900+ DSA problems solved on LeetCode & GFG with (1500+ rated on LeetCode) and multiple full-stack projects pushed to GitHub, including MERN and AI-based apps.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-<!-- -------------------------JS-------------------------------------- -->
+
+
+
+
+
+
+
+
+    <!-- -------------------------JS-------------------------------------- -->
     <script>
-        var tablinks = document.getElementsByClassName("tab-links")
-        var tabcontents = document.getElementsByClassName("tab-contents")
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link")
-            document.getElementById(tabname).classList.add("active-tab")
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
