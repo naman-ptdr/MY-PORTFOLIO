@@ -5,7 +5,7 @@ This is my personal portfolio website showcasing my projects, skills, and achiev
 
 ## 📸 Preview
 
-Live Site 👉 [https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)
+Live Site 👉 [https://yourusername.github.io/portfolio/](https://naman-ptdr.github.io/portfolio/)
 
 ## 🚀 Features
 
@@ -60,4 +60,5 @@ I’m Naman Patidar, an MCA student at NIT Raipur passionate about full-stack de
 ## ⭐ Show Your Support
 
 If you liked this portfolio, give it a ⭐ on GitHub!
+
 
